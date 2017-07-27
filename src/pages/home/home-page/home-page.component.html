@@ -7,25 +7,25 @@
   <tbody>
     <tr>
       <th>ID </th>
-      <th>姓名 </th>
-      <th>性别 </th>
-      <th>Name </th>
-      <th>github </th>
-      <th>exam1 </th>
-      <th>exam2 </th>
-      <th>exam3 </th>
+      <th>名称 </th>
+      <th>规格 </th>
+      <th>价格 </th>
+      <th>剩余数量 </th>
+      <th>产地 </th>
+      <th>保质期 </th>
+      <th>生产日期 </th>
     </tr>
   </tbody>
   <tbody>
     <tr *ngFor="let user of users">
       <td>{{user.index}}</td>
       <td>{{user.name}}</td>
-      <td>{{user.sex}}</td>
-      <td>{{user.name_en}} </td>
-      <td><a target="_blank" href="http://github.com/{{user.github}}">{{user.github}}</a></td>
-      <td>{{user.exam1}}</td>
-      <td>{{user.exam2}}</td>
-      <td>{{user.exam3}}</td>
+      <td>{{user.spec}}</td>
+      <td>{{user.price}} </td>
+      <td>{{user.num}}</td>
+      <td>{{user.Place}}</td>
+      <td>{{user.timelimit}}</td>
+      <td>{{user.P_date}}</td>
     </tr>
   </tbody>
 </table>
